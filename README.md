@@ -19,7 +19,7 @@ $ npm run generate
 
 ### `Add modules vue-sweetalert2/nuxt in nuxt.config.js`
 
-  `
+```bash
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
@@ -28,22 +28,22 @@ $ npm run generate
     // https://www.npmjs.com/package/vue-sweetalert2
     'vue-sweetalert2/nuxt',
   ],
-  `
+```
 
   
 ### `Add File wdAlert.js in plugins Directory`
   
 ### `Add plugins wdAlert.js in nuxt.config.js`
 
-  `
+```bash
   plugins: [
     '~/plugins/wdAlert.js',
   ],
-  `
+```
 
 ### `Call with this functions`
 
-    `
+```bash
     // this.$wdAlert.alertSuccess("test", "test จ้า test 2");
     // this.$wdAlert.alertSuccess("test", "test จ้า test 2", 3000);
     // this.$wdAlert.alertSuccessConfirm("test", "test จ้า test 2");
@@ -53,4 +53,4 @@ $ npm run generate
     // this.$wdAlert.alertError("test", "test จ้า test 2", 3000);
     // this.$wdAlert.alertErrorConfirm("test", "test จ้า test 2");
     // this.$wdAlert.alertErrorConfirm("test", "test จ้า test 2","OK จ้า");
-    `
+```
