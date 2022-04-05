@@ -32,12 +32,6 @@ $ npm run generate
 
   
 ### `Add File wdAlert.js in plugins Directory`
-
-  `
-  plugins: [
-    '~/plugins/wdAlert.js',
-  ],
-  `
   
 ### `Add plugins wdAlert.js in nuxt.config.js`
 
