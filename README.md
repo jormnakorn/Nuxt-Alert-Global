@@ -44,13 +44,13 @@ $ npm run generate
 ### `Call with this functions`
 
 ```bash
-    // this.$wdAlert.alertSuccess("test", "test จ้า test 2");
-    // this.$wdAlert.alertSuccess("test", "test จ้า test 2", 3000);
-    // this.$wdAlert.alertSuccessConfirm("test", "test จ้า test 2");
-    // this.$wdAlert.alertSuccessConfirm("test", "test จ้า test 2","OK จ้า");
+    // this.$wdAlert.alertSuccess("Title", "Text / Detail");
+    // this.$wdAlert.alertSuccess("Title", "Text / Detail", 3000);
+    // this.$wdAlert.alertSuccessConfirm("Title", "Text / Detail");
+    // this.$wdAlert.alertSuccessConfirm("Title", "Text / Detail","OK จ้า");
 
-    // this.$wdAlert.alertError("test", "test จ้า test 2");
-    // this.$wdAlert.alertError("test", "test จ้า test 2", 3000);
-    // this.$wdAlert.alertErrorConfirm("test", "test จ้า test 2");
-    // this.$wdAlert.alertErrorConfirm("test", "test จ้า test 2","OK จ้า");
+    // this.$wdAlert.alertError("Title", "Text / Detail");
+    // this.$wdAlert.alertError("Title", "Text / Detail", 3000);
+    // this.$wdAlert.alertErrorConfirm("Title", "Text / Detail");
+    // this.$wdAlert.alertErrorConfirm("Title", "Text / Detail","OK จ้า");
 ```
